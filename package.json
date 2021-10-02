@@ -23,6 +23,7 @@
     "@types/react": "17.0.26",
     "@types/styled-components": "^5.1.14",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "babel-plugin-styled-components": "^1.13.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.3.0",
