@@ -16,12 +16,7 @@ jobs:
         id: client-npm-cache
         with:
           path: 'node_modules'
-          key: client-npm-${{ hashFiles('package-lock.json') }}
-      - uses: actions/cache@v2
-        id: server-npm-cache
-        with:
-          path: 'server/node_modules'
-          key: server-npm-${{ hashFiles('server/package-lock.json') }}
+          key: client-npm-${{ hashFiles('yarn.lock') }}
       - run: npm install
         if: steps.client-npm-cache.outputs.cache-hit != 'true'
       - run: npm run lint
