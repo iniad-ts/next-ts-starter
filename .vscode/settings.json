@@ -8,5 +8,6 @@
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "files.eol": "\n",
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "stylelint.validate": ["css", "less", "postcss", "typescriptreact"]
 }
