@@ -31,6 +31,7 @@ const Title = styled.h1`
     color: #0070f3;
     text-decoration: none;
   }
+
   a:hover,
   a:focus,
   a:active {
@@ -46,8 +47,8 @@ const Description = styled.p`
 
 const Code = styled.code`
   padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, 'Monaco, Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono',
+    'Bitstream Vera Sans Mono', 'Courier New', monospace;
   font-size: 1.1rem;
   background: #fafafa;
   border-radius: 5px;
@@ -86,7 +87,7 @@ const Card = styled.a`
   }
 
   h2 {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem;
     font-size: 1.5rem;
   }
 

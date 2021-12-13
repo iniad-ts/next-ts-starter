@@ -6,9 +6,9 @@
     "dev": "next dev -p 3000",
     "build": "next build && next export",
     "lint": "yarn lint:js && yarn lint:prettier && yarn lint:style",
-    "lint:js": "eslint --ext .ts,.tsx,.js .",
+    "lint:js": "eslint --ext .ts,.tsx,.js --ignore-path .gitignore .",
     "lint:prettier": "prettier --check \"./**/*.{ts,tsx,js}\" --ignore-path .gitignore",
-    "lint:style": "stylelint '**/*.ts{,x}' -s css-in-js",
+    "lint:style": "stylelint '**/*.ts{,x}'",
     "lint:fix": "npm run lint:js -- --fix && prettier --write \"./**/*.{ts,tsx,js}\" --ignore-path .gitignore && npm run lint:style -- --fix",
     "start": "next start",
     "typecheck": "tsc --noEmit"
@@ -28,12 +28,15 @@
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.3.0",
     "npm-run-all": "^4.1.5",
+    "postcss-jsx": "^0.36.4",
+    "postcss-syntax": "^0.36.2",
     "prettier": "^2.4.1",
     "prettier-plugin-organize-imports": "^2.3.4",
-    "stylelint": "^13.13.1",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-recess-order": "^2.5.0",
-    "stylelint-config-standard": "^22.0.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
     "typescript": "4.4.3"
   }
 }
