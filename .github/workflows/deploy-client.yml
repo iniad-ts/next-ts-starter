@@ -22,13 +22,13 @@ jobs:
           fi
           echo "CLIENT_BASE_PATH=$CLIENT_BASE_PATH" >> $GITHUB_ENV
       - uses: actions/cache@v2
-        id: npm-cache
+        id: yarn-cache
         with:
           path: 'node_modules'
-          key: client-npm-${{ hashFiles('yarn.lock') }}
-      - run: npm install
-        if: steps.client-npm-cache.outputs.cache-hit != 'true'
-      - run: npm run build
+          key: client-yarn-${{ hashFiles('yarn.lock') }}
+      - run: yarn install
+        if: steps.client-yarn-cache.outputs.cache-hit != 'true'
+      - run: yarn build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
