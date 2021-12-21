@@ -9,6 +9,7 @@ module.exports = {
   // https://stylelint.io/user-guide/configuration
   rules: {
     'value-keyword-case': null,
+    'unit-no-unknown': null,
   },
   customSyntax: 'postcss-jsx',
 }
