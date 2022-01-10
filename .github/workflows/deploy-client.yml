@@ -14,13 +14,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - run: |
-          if test -n '${{ secrets.GH_PAGES_BASE_PATH }}'; then
-            CLIENT_BASE_PATH='${{ secrets.GH_PAGES_BASE_PATH }}'
-          else
-            CLIENT_BASE_PATH="/$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')"
-          fi
-          echo "CLIENT_BASE_PATH=$CLIENT_BASE_PATH" >> $GITHUB_ENV
       - uses: actions/cache@v2
         id: yarn-cache
         with:
