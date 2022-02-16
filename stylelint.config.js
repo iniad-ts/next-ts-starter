@@ -11,5 +11,5 @@ module.exports = {
     'value-keyword-case': null,
     'unit-no-unknown': null,
   },
-  customSyntax: 'postcss-jsx',
+  customSyntax: '@stylelint/postcss-css-in-js',
 }
