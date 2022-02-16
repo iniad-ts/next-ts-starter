@@ -26,7 +26,9 @@ module.exports = {
     },
   },
   rules: {
+    'prefer-template': 'error',
     'react/react-in-jsx-scope': 'off',
+    '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 }
