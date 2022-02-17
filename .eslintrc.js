@@ -3,6 +3,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'prettier',
@@ -26,8 +27,12 @@ module.exports = {
     },
   },
   rules: {
-    'prefer-template': 'error',
     'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
+    'react/self-closing-comp': 'error',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
+    'prefer-template': 'error',
     '@typescript-eslint/consistent-type-imports': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
