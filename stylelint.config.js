@@ -10,6 +10,7 @@ module.exports = {
   rules: {
     'value-keyword-case': null,
     'unit-no-unknown': null,
+    'function-no-unknown': null,
   },
   customSyntax: '@stylelint/postcss-css-in-js',
 }

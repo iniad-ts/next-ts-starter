@@ -45,12 +45,12 @@ const Description = styled.p`
   text-align: center;
 `
 
-const Code = styled.code`
+const Code = styled.code<{ bgColor: string }>`
   padding: 0.75rem;
   font-family: Menlo, 'Monaco, Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono',
     'Bitstream Vera Sans Mono', 'Courier New', monospace;
   font-size: 1.1rem;
-  background: #fafafa;
+  background: ${(props) => props.bgColor};
   border-radius: 5px;
 `
 
@@ -134,7 +134,7 @@ const Home: NextPage = () => {
         </Title>
 
         <Description>
-          Get started by editing <Code>pages/index.js</Code>
+          Get started by editing <Code bgColor="#fafafa">pages/index.js</Code>
         </Description>
 
         <Grid>
