@@ -158,10 +158,16 @@ const Home: NextPage = () => {
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </Card>
         </Grid>
+        <Button
+          type="submit"
+          fullWidth
+          variant="contained"
+          sx={{ mt: 3, mb: 2 }}
+          href="https://github.com/mui/material-ui/tree/v5.10.8/docs/data/material/getting-started/templates/dashboard"
+        >
+          material-ui
+        </Button>
       </Main>{' '}
-      <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
-        material-ui
-      </Button>
       <Footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
