@@ -167,7 +167,7 @@ const Home: NextPage = () => {
         >
           material-ui
         </Button>
-      </Main>{' '}
+      </Main>
       <Footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
