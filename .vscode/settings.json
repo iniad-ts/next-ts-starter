@@ -9,5 +9,11 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "files.eol": "\n",
   "editor.tabSize": 2,
-  "stylelint.validate": ["css", "less", "postcss", "typescriptreact"]
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "typescriptreact"
+  ],
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
