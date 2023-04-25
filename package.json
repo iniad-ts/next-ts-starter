@@ -10,43 +10,30 @@
     "lint": "run-p lint:js lint:prettier lint:style",
     "lint:js": "eslint --ext .ts,.tsx,.js --ignore-path .gitignore .",
     "lint:prettier": "prettier --check \"./**/*.{ts,tsx,js}\" --ignore-path .gitignore",
-    "lint:style": "stylelint \"**/*.{ts,tsx,css}\"",
+    "lint:style": "stylelint \"src/**/*.css\"",
     "lint:fix": "npm run lint:js -- --fix && prettier --write \"./**/*.{ts,tsx,js}\" --ignore-path .gitignore && npm run lint:style -- --fix",
     "start": "next start",
     "typecheck": "hcm src/**/*.module.css && tsc --noEmit"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "@mui/icons-material": "^5.10.9",
-    "@mui/material": "^5.10.7",
-    "@mui/styled-engine-sc": "^5.10.6",
-    "next": "^12.2.5",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "styled-components": "^5.3.6"
+    "next": "^13.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@stylelint/postcss-css-in-js": "^0.38.0",
     "@types/node": "^17.0.41",
     "@types/react": "18.0.1",
-    "@types/styled-components": "^5.1.25",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "eslint": "^8.17.0",
     "eslint-config-next": "^12.1.6",
     "eslint-config-prettier": "^8.5.0",
     "happy-css-modules": "^2.1.0",
     "npm-run-all": "^4.1.5",
-    "postcss-jsx": "^0.36.4",
-    "postcss-syntax": "^0.36.2",
     "prettier": "^2.8.8",
     "prettier-plugin-organize-imports": "^3.2.2",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier": "^9.0.5",
-    "stylelint-config-recess-order": "^3.1.0",
     "stylelint-config-standard": "^25.0.0",
-    "stylelint-config-styled-components": "^0.1.1",
-    "stylelint-order": "^6.0.3",
-    "typescript": "^4.7.3"
+    "typescript": "^5.0.4"
   }
 }

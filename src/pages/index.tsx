@@ -1,4 +1,3 @@
-import Button from '@mui/material/Button'
 import styles from './index.module.css'
 
 const Home = () => {
@@ -40,15 +39,6 @@ const Home = () => {
             <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
-        <Button
-          type="submit"
-          fullWidth
-          variant="contained"
-          sx={{ mt: 3, mb: 2 }}
-          href="https://github.com/mui/material-ui/tree/v5.10.8/docs/data/material/getting-started/templates/dashboard"
-        >
-          material-ui
-        </Button>
       </main>
       <footer className={styles.footer}>
         <a
