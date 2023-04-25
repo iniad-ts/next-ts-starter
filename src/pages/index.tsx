@@ -1,4 +1,4 @@
-import styles from './index.module.css'
+import styles from './index.module.css';
 
 const Home = () => {
   return (
@@ -53,7 +53,7 @@ const Home = () => {
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -74,7 +74,7 @@
   margin-top: 3rem;
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .grid {
     flex-direction: column;
     width: 100%;
