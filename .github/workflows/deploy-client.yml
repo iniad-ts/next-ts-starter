@@ -18,7 +18,7 @@ jobs:
         id: npm-cache
         with:
           path: 'node_modules'
-          key: npm-${{ hashFiles('packagelock.json') }}
+          key: npm-${{ hashFiles('package-lock.json') }}
       - run: npm install
         if: steps.npm-cache.outputs.cache-hit != 'true'
       - run: npm run build
