@@ -15,13 +15,13 @@ jobs:
         with:
           node-version: 18
       - uses: actions/cache@v3
-        id: yarn-cache
+        id: npm-cache
         with:
           path: 'node_modules'
-          key: client-yarn-${{ hashFiles('yarn.lock') }}
-      - run: yarn install
-        if: steps.client-yarn-cache.outputs.cache-hit != 'true'
-      - run: yarn build
+          key: npm-${{ hashFiles('packagelock.json') }}
+      - run: npm install
+        if: steps.npm-cache.outputs.cache-hit != 'true'
+      - run: npm run build
       - run: touch ./out/.nojekyll
       - uses: peaceiris/actions-gh-pages@v3
         with:

@@ -13,11 +13,11 @@ jobs:
         with:
           node-version: 18
       - uses: actions/cache@v3
-        id: client-yarn-cache
+        id: npm-cache
         with:
           path: 'node_modules'
-          key: client-yarn-${{ hashFiles('yarn.lock') }}
-      - run: yarn install
-        if: steps.client-yarn-cache.outputs.cache-hit != 'true'
-      - run: yarn lint
-      - run: yarn typecheck
+          key: npm-${{ hashFiles('packagelock.json') }}
+      - run: npm install
+        if: steps.npm-cache.outputs.cache-hit != 'true'
+      - run: npm run lint
+      - run: npm run typecheck
