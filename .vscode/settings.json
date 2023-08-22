@@ -7,9 +7,8 @@
     "source.fixAll.stylelint": true
   },
   "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.referencesCodeLens.enabled": true,
   "files.eol": "\n",
   "editor.tabSize": 2,
-  "prettier.prettierPath": "node_modules/prettier",
-  "stylelint.validate": ["css", "less", "postcss"],
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "stylelint.validate": ["css"]
 }
