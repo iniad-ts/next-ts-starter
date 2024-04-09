@@ -17,20 +17,20 @@
     "typecheck": "npm run hcm && tsc --noEmit"
   },
   "dependencies": {
-    "next": "^13.4.13",
+    "next": "14.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.4.9",
-    "@types/react": "^18.2.20",
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.67",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
-    "eslint": "^8.46.0",
-    "eslint-config-next": "^13.4.13",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.4",
+    "eslint-config-prettier": "^9.1.0",
     "happy-css-modules": "^2.1.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.8",
+    "prettier": "3.2.5",
     "prettier-plugin-organize-imports": "^3.2.3",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier": "^9.0.5",
