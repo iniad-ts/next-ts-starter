@@ -1,32 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+これは [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) でブートストラップされた [Next.js](https://nextjs.org/) プロジェクトです。
 
-## Getting Started
+## はじめに
 
-First, run the development server:
-
+[Node.js](https://nodejs.org/en)(LTSを強く推奨)&npmのセットアップを完了したあと、開発用サーバーを起動します：
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで[http://localhost:3000](http://localhost:3000)を開くと結果が表示されます。
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+`pages/index.tsx`を修正することで、ページの編集を開始することができます。ファイルを編集すると、ページは自動的に更新されます。
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+[APIルート](https://nextjs.org/docs/api-routes/introduction)は[http://localhost:3000/api/hello](http://localhost:3000/api/hello)でアクセスできます。
+このエンドポイントは `pages/api/hello.ts` で編集できます。
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+`pages/api`ディレクトリは `/api/*` にマップされる。このディレクトリのファイルはReactページではなく、[API routes](https://nextjs.org/docs/api-routes/introduction)として扱われます。
 
-## Learn More
+## 詳細はこちら
 
-To learn more about Next.js, take a look at the following resources:
+Next.jsの詳細については、以下のリソースをご覧ください：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Next.jsの機能とAPIについて学ぶことができます。
+- [Learn Next.js](https://nextjs.org/learn) - インタラクティブなNext.jsのチュートリアルです。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Next.jsのGitHubリポジトリ](https://github.com/vercel/next.js/) - フィードバックやコントリビューションを歓迎します！
