@@ -24,3 +24,6 @@ Next.jsの詳細については、以下のリソースをご覧ください：
 - [Learn Next.js](https://nextjs.org/learn) - インタラクティブなNext.jsのチュートリアルです。
 
 [Next.jsのGitHubリポジトリ](https://github.com/vercel/next.js/) - フィードバックやコントリビューションを歓迎します！
+
+## Github Pagesへのデプロイ
+Github上のSettings -> Pages内のBranchをNoneからgh-pagesに切り替えるとWebページがデプロイされます。
