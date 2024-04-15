@@ -26,4 +26,4 @@ Next.jsの詳細については、以下のリソースをご覧ください：
 [Next.jsのGitHubリポジトリ](https://github.com/vercel/next.js/) - フィードバックやコントリビューションを歓迎します！
 
 ## Github Pagesへのデプロイ
-Github上のSettings -> Pages内のBranchをNoneからgh-pagesに切り替えるとWebページがデプロイされます。
+Github上のSettings -> Pages内のSourceをGitHub Actionsに切り替えるとWebページがデプロイされます。
