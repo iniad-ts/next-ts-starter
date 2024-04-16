@@ -14,5 +14,10 @@
 
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true
+  "files.trimFinalNewlines": true,
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.module.css": "${capture}.module.css.d.ts, ${capture}.module.css.d.ts.map"
+  }
 }
