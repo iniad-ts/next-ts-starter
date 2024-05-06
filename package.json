@@ -33,7 +33,6 @@
     "prettier": "3.2.5",
     "prettier-plugin-organize-imports": "^3.2.3",
     "stylelint": "^16.5.0",
-    "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recess-order": "^5.0.1",
     "stylelint-config-standard": "^36.0.0",
     "typescript": "^5.1.6"
